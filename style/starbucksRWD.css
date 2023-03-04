@@ -1,0 +1,386 @@
+* {
+  list-style-type: none;
+}
+
+.myHeader {
+  background: linear-gradient(#006341 10px, #f7f7f7 10px);
+  margin-bottom: 20px;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+}
+.btn-position {
+  border: none;
+}
+
+.navbar-toggler {
+  border: none;
+}
+.navbar-toggler span {
+  color: #2b8a14;
+}
+.btn-position a i {
+  font-size: 30px;
+  color: #2b8a14;
+}
+.navbar-collapse {
+  background-color: #ccc;
+}
+
+.menu-1 li a {
+  display: block;
+  margin-left: 20px;
+  color: #000;
+  text-decoration: none;
+}
+
+.menu-2 {
+  display: flex;
+  justify-content: flex-end;
+}
+.menu-2 li a {
+  display: block;
+  /* margin-left: 20px; */
+  color: #000;
+  text-decoration: none;
+}
+
+/* main */
+.content {
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+/* banner1 */
+.banner1 {
+  background: url(../banner_pc_01@2x.jpg) center center no-repeat;
+  background-size: contain;
+}
+.banner-wrap img {
+  width: 100%;
+}
+
+/* banner2 */
+.banner2 {
+  background: url(../banner_pc_mobile-order-pay.jpg);
+  background-size: cover;
+}
+/* banner3 */
+.banner3 {
+  background: url(../banner_pc_open@2x.jpg);
+  background-size: contain;
+}
+/* banner4 */
+.banner4 {
+  background: url(../banner_pc_online-redeem.jpg);
+  background-size: 100% 100%;
+}
+
+/* banner5 */
+.banner5 {
+  display: flex;
+}
+
+.banner5-wrap {
+  display: flex;
+  margin: 0 auto 20px;
+}
+.img-left img:nth-child(1) {
+  width: 300px;
+}
+.img-left img:nth-child(2) {
+  width: 50px;
+}
+.banner5-left {
+  background-color: #1e3932;
+  padding: 5rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.banner5-right {
+  background-color: #00704a;
+  flex: 1;
+  padding: 5rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.img-right {
+  margin: 0 auto 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.img-right img {
+  width: 200px;
+}
+
+.banner5 h3 {
+  font-size: 50px;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.banner5 p {
+  font-size: 24px;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.btn-group .mybtn {
+  width: 120px;
+  border: 1px solid #fff;
+  border-radius: 30px;
+  background-color: transparent;
+  color: #fff;
+  font-size: 18px;
+  margin: 0 10px;
+  padding: 0.25rem 0.75rem;
+  font-weight: 700;
+}
+/* banner6 */
+.banner6 {
+  background: url(../banner_pc_06.jpg);
+  background-size: contain;
+}
+
+.content-flex {
+  display: flex;
+  margin: 0 auto;
+}
+
+/* banner7 */
+.banner7 {
+  width: 100%;
+  flex: 1;
+  margin-bottom: 20px;
+}
+.banner7-wrap {
+  width: 100%;
+  height: auto;
+}
+.banner7-left {
+  background-color: #035d36;
+  text-align: center;
+}
+.banner7-left .text h3 {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+.banner7-left .text p {
+  color: #fff;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+.banner7-left .text a {
+  text-decoration: none;
+  width: 130px;
+  display: block;
+  padding: 0.25rem 0.75rem;
+  border: 1px solid #fff;
+  border-radius: 30px;
+  color: #fff;
+}
+.banner7-right {
+  background-color: #d4e8e1;
+  text-align: center;
+}
+
+.banner7-right .text h3 {
+  font-size: 40px;
+  margin-bottom: 20px;
+  color: #1e3932;
+}
+
+.banner7-right .text p {
+  font-size: 20px;
+  margin-bottom: 30px;
+  color: #1e3932;
+}
+.banner7-right .text a {
+  text-decoration: none;
+  width: 150px;
+  display: block;
+  padding: 0.25rem 0.75rem;
+  border: 1px solid #1e3932;
+  border-radius: 30px;
+  color: #1e3932;
+}
+.banner7-right {
+  background-color: #d4e8e1;
+}
+
+.banner7 img {
+  width: 100%;
+  vertical-align: middle;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  align-items: center;
+}
+footer {
+  position: relative;
+}
+.social-media {
+  width: 100%;
+  background-color: #f0f0f0;
+  padding: 20px 20px;
+  margin-bottom: 10px;
+}
+.social-media-wrap {
+  padding: 2rem;
+}
+
+.social-media-wrap a {
+  text-decoration: none;
+  color: #999;
+}
+.social-media-wrap a i {
+  font-size: 30px;
+  margin-right: 20px;
+}
+.social-media-wrap a:hover {
+  color: #bbb;
+}
+
+/* foot menu */
+
+.myBg {
+  background-color: #f0f0f0;
+}
+.foot-menu-group {
+  display: flex;
+}
+
+.foot-menu {
+  padding: 1rem;
+}
+
+.foot-menu h2 {
+  margin-bottom: 1rem;
+  font-weight: 400;
+  font-size: 1.3rem;
+}
+
+.foot-menu ul li {
+  margin-bottom: 1rem;
+}
+.foot-menu ul li a {
+  color: black;
+  font-weight: 300;
+  text-decoration: none;
+  display: block;
+}
+.foot-menu ul li a:hover {
+  color: #333;
+}
+.ft-img-wrap {
+  text-align: right;
+}
+
+.web-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  background-color: #f0f0f0;
+}
+.web-info-wrap {
+  /* margin: 0 auto; */
+}
+.info-menu {
+  display: flex;
+  /* flex-direction: column; */
+}
+.web-info nav {
+  margin-bottom: 0.5rem;
+}
+
+.info-menu li a {
+  color: #707070;
+  margin-right: 1rem;
+}
+.web-txt {
+  margin-bottom: 2rem;
+}
+.web-txt small {
+  color: #707070;
+}
+
+.to-top-btn {
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  border-radius: 0;
+  background-color: #382e2c;
+  position: absolute;
+  right: 0;
+  bottom: 0.5rem;
+  z-index: 999;
+}
+.to-top-btn a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+}
+.to-top-btn a:hover {
+  color: #fff;
+}
+
+.bg-bottom {
+  height: 0.5rem;
+  background-color: #382e2c;
+}
+/* 桌機版設定 */
+@media screen and (min-width: 968px) {
+  .myHeader {
+    line-height: 10vh;
+    margin-bottom: 40px;
+  }
+  .navbar-collapse {
+    background-color: transparent;
+  }
+  .menu-1 > ul li a:hover {
+    background-color: #000;
+    color: #fff;
+  }
+
+  .menu-2 > ul li a:hover {
+    color: #333;
+  }
+}
+/* 手機版設定 */
+@media screen and (max-width: 968px) {
+  .banner5 {
+    flex-wrap: wrap;
+  }
+  .content-flex {
+    flex-direction: column;
+  }
+
+  .foot-menu > ul,
+  .foot-menu img {
+    display: none;
+  }
+
+  .foot-menu h2 {
+    padding-bottom: 1rem;
+    border-bottom: 1px solid gray;
+  }
+  .info-menu {
+    display: block;
+  }
+}
